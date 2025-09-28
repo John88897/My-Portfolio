@@ -62,34 +62,31 @@ nav a.active {
 .mainGp {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .text { 
     background-color: white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    padding: 20px 30px ;
-    margin: 40px auto;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
 }
-
 
 p {
     font-size: 14px;
     color: #555;
-    margin-bottom: 20px;
-    line-height: 1.5;
 }
 
 h4 {
     font-size: 16px;
     color: #333;
-    margin-bottom: 10px;
 }
 
 h1 {
     color: #333;
     font-size: 24px;
-    margin-bottom: 15px;
 }
 
 .gp {
@@ -100,6 +97,5 @@ h1 {
 img {
     border: 3px solid lightblue;
     width: 400px;
-    height: auto;
     border-radius: 10px;
 }
